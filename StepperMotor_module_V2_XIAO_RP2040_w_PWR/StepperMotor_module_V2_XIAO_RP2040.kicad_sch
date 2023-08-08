@@ -1,0 +1,86 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 67ad53b0-e724-4354-8add-ffbe056bca93)
+
+  (paper "User" 150.012 99.9998)
+
+  (title_block
+    (date "2023-07-08")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 76.2 39.37) (size 31.75 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 03c1781e-297b-49e1-8cb8-7d532072eddb)
+    (property "Sheetname" "Power" (at 76.2 38.6584 0) (show_name)
+      (effects (font (size 1.27 1.27) bold italic) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 76.2 48.8446 0) (show_name)
+      (effects (font (size 1.27 1.27) bold italic) (justify left top))
+    )
+    (instances
+      (project "StepperMotor_module_V2_XIAO_RP2040"
+        (path "/67ad53b0-e724-4354-8add-ffbe056bca93" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 40.64 22.86) (size 30.48 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 07c0a6ff-eef2-4578-b5db-f7e0ea607e3d)
+    (property "Sheetname" "MCU-XIAO RP2040" (at 40.64 22.1484 0) (show_name)
+      (effects (font (size 1.27 1.27) bold italic) (justify left bottom))
+    )
+    (property "Sheetfile" "pico.kicad_sch" (at 40.64 32.3346 0) (show_name)
+      (effects (font (size 1.27 1.27) bold italic) (justify left top))
+    )
+    (instances
+      (project "StepperMotor_module_V2_XIAO_RP2040"
+        (path "/67ad53b0-e724-4354-8add-ffbe056bca93" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 40.64 39.37) (size 30.48 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9c4f98f1-bc47-4c4b-bbad-ba5566d013b5)
+    (property "Sheetname" "Conn" (at 40.64 38.6584 0) (show_name)
+      (effects (font (size 1.27 1.27) bold italic) (justify left bottom))
+    )
+    (property "Sheetfile" "conn.kicad_sch" (at 40.64 48.8446 0) (show_name)
+      (effects (font (size 1.27 1.27) bold italic) (justify left top))
+    )
+    (instances
+      (project "StepperMotor_module_V2_XIAO_RP2040"
+        (path "/67ad53b0-e724-4354-8add-ffbe056bca93" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 22.86) (size 31.75 8.89) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f879121b-b8b1-4c0a-8f21-a8ce38d582ad)
+    (property "Sheetname" "A4988_Module" (at 76.2 22.1484 0) (show_name)
+      (effects (font (size 1.27 1.27) bold italic) (justify left bottom))
+    )
+    (property "Sheetfile" "A4988_Module.kicad_sch" (at 76.2 32.3346 0) (show_name)
+      (effects (font (size 1.27 1.27) bold italic) (justify left top))
+    )
+    (instances
+      (project "StepperMotor_module_V2_XIAO_RP2040"
+        (path "/67ad53b0-e724-4354-8add-ffbe056bca93" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

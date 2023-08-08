@@ -1,0 +1,60 @@
+# This is an example config file for pcb2gcode.
+# Rename this file "millproject" and place it in the same directory as your
+# gerber files to save typing
+# <option>=false is implicit, it is present just for clearness
+
+# You may want to uncomment and change those in local project files (or you
+# can specify them directly as command line arguments)
+front=Board_To_Be_Tested-F_Cu.gbr
+#back=board.back.gbr
+outline=Board_To_Be_Tested-Edge_Cuts.gbr
+#drill=board.plated-drill.drl
+#preamble=preamble.ngc
+#preamble-text=preamble_text.txt
+#postamble=postamble.ngc
+
+# Common options
+metric=true
+metricoutput=true
+# mirror-absolute=false
+# optimise=true
+zchange=10.0000
+zero-start=true
+zsafe=5.0000
+
+# Mill options
+extra-passes=20
+mill-feed=200
+mill-speed=10000
+offset=1.1000
+#offset=20  # Uncomment (and comment the previous line) for voronoi regions
+zwork=-0.18000
+
+# Drill options
+drill-feed=200
+drill-side=auto
+drill-speed=10000
+milldrill=false
+nog81=false
+onedrill=false
+zdrill=-0.3000
+
+# Outline options
+bridges=1.0000
+bridgesnum=2
+cut-feed=200
+cut-side=auto
+cut-infeed=0.5000
+cut-speed=10000
+cutter-diameter=1.1000
+fill-outline=true
+zbridges=-0.6000
+zcut=-2.5000
+
+# Autoleveller options
+al-back=false
+al-front=false
+al-probefeed=100
+al-x=15.0000
+al-y=15.0000
+software=LinuxCNC
